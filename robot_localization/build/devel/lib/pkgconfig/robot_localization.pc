@@ -1,0 +1,8 @@
+prefix=/home/luk/catkin_ws/src/robot_collaboration/robot_localization/build/devel
+
+Name: robot_localization
+Description: Description of robot_localization
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/luk/catkin_ws/src/robot_collaboration/robot_localization/build/devel/lib 
+Requires: 

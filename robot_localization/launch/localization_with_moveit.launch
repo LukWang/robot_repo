@@ -1,0 +1,11 @@
+<launch>
+    <node name="openni2_marker_tracker" pkg="openni2_aruco_tracker" type="openni2_aruco_tracker" />
+
+    <node name="locationizer" pkg="robot_localization" type="robot_localization" output="screen"/>
+
+    <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch"/>
+	<include file="$(find ur5_moveit_config)/launch/moveit_rviz.launch" >
+		<arg name="config" default="true"/>
+	</include>
+
+</launch>

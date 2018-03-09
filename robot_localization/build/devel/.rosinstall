@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/luk/catkin_ws/src/robot_collaboration/robot_localization/build/devel/setup.sh
